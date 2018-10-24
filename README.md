@@ -12,13 +12,13 @@
 ![商品描述](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/c2.jpg)
 
 ## 单点登录系统
-![单点登录页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/d1.jpg)
+![单点登录页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/d1.png)
 
 ## 购物车页
-![购物车页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/e1.jpg)
+![购物车页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/e1.png)
 
 ## 订单页
-![订单页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/f1.jpg)
+![订单页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/f1.png)
 
 ## 后台系统商品管理页
 ![后台系统商品管理页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/g1.jpg)
@@ -34,7 +34,7 @@
 ![商品描述](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/g4.jpg)
 
 ### 商品库存管理
-![商品库存管理页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/g5.jpg)
+![商品库存管理页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/g5.png)
 
 ## 后台系统品牌管理列表
 ![后台系统品牌管理列表](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/h1.jpg)

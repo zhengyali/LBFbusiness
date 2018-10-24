@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/business_common/business_common.iml" filepath="$PROJECT_DIR$/business_common/business_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_dao/business_dao.iml" filepath="$PROJECT_DIR$/business_dao/business_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_interface/business_interface.iml" filepath="$PROJECT_DIR$/business_interface/business_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_login/business_login.iml" filepath="$PROJECT_DIR$/business_login/business_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_parent.iml" filepath="$PROJECT_DIR$/business_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_pojo/business_pojo.iml" filepath="$PROJECT_DIR$/business_pojo/business_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_protal/business_protal.iml" filepath="$PROJECT_DIR$/business_protal/business_protal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_rconsole/business_rconsole.iml" filepath="$PROJECT_DIR$/business_rconsole/business_rconsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_service_cms/business_service_cms.iml" filepath="$PROJECT_DIR$/business_service_cms/business_service_cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_service_cob/business_service_cob.iml" filepath="$PROJECT_DIR$/business_service_cob/business_service_cob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_service_product/business_service_product.iml" filepath="$PROJECT_DIR$/business_service_product/business_service_product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business_service_solr/business_service_solr.iml" filepath="$PROJECT_DIR$/business_service_solr/business_service_solr.iml" />
+    </modules>
+  </component>
+</project>

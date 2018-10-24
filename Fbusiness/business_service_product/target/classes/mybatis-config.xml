@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- setting 迟延加载和二级缓存 （项目为电商，所以不用二级缓存）  缓存使用的是分布式缓存
+	     有静态化所以不需要延迟加载   并且延迟加载一般是关联条件查询，电商要的是高并发的显示，拒绝复杂sql-->
+
+	<!-- 别名  使用逆向工程就不需要别名了-->
+	<typeAliases>
+		<package name="cn.lili.core.bean"/>
+	</typeAliases>
+	
+	<!-- Mapper 位置配置  spring配置中使用的是包扫描，所以mapper也不需要配置
+	<mappers>
+	</mappers>
+	 -->
+
+</configuration>

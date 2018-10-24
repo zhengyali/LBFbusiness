@@ -1,0 +1,54 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd 
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-4.0.xsd 
+		http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-4.0.xsd 
+		http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/task
+   		http://www.springframework.org/schema/task/spring-task-4.0.xsd
+		http://code.alibabatech.com/schema/dubbo        
+		http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+		
+	<!-- Dubbo消费方 -->
+	<!-- 1：名称  计算机 区别 唯一 -->
+	<dubbo:application name="business_protal"/>
+	<!-- 2：设置注册中心  地址  zookeeper在哪里  redis ... -->
+    <!-- 	<dubbo:registry address="192.168.200.128:2181,192.168.200.129:2181,192.168.200.130:2181" protocol="zookeeper"/> --><!--集群版-->
+	<!--<dubbo:registry address="192.168.200.128:2181" protocol="zookeeper"/> --> <!--单机版-->
+	<dubbo:registry address="N/A" check="false"/>
+	<!-- 3： 调用此接口对应的实现类  单位毫秒-->
+	<dubbo:reference interface="cn.lili.core.service.SearchService" id="searchService"
+			url="dubbo://127.0.0.1:20882" 		/> <!--这个id是autowired的对象-->
+
+	<dubbo:reference interface="cn.lili.core.service.CmsService" id="cmsService"
+					 url="dubbo://127.0.0.1:20882"/>
+
+	<dubbo:reference interface="cn.lili.core.service.product.BrandService" id="brandService"
+					 url="dubbo://127.0.0.1:20881"/>
+
+	<dubbo:reference interface="cn.lili.core.service.product.SkuService" id="skuService"
+					 url="dubbo://127.0.0.1:20881"/>
+
+	<dubbo:reference interface="cn.lili.core.service.cob.user.SessionProvider" id="sessionProvider"
+					 url="dubbo://127.0.0.1:20881"/>
+
+	<dubbo:reference interface="cn.lili.core.service.cob.BuyerService" id="buyerService"
+					 url="dubbo://127.0.0.1:20881"/>
+	<!--设置超时时间  设置为全局变量(方便之后更多的接口，只用此处设置一次)  默认是1000毫秒=1秒-->
+    <dubbo:consumer timeout="600000"  check="false"/>
+
+	<!--设置不检查为全局变量-->
+		
+</beans>

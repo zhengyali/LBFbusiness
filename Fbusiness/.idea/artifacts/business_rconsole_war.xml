@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="business_rconsole:war">
+    <output-path>$PROJECT_DIR$/business_rconsole/target</output-path>
+    <root id="archive" name="business_rconsole-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="business_rconsole:war exploded" />
+    </root>
+  </artifact>
+</component>

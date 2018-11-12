@@ -1,4 +1,4 @@
-##图片资源来自网
+##静态页面资源来自网路
 # LB商城项目
 ## 首页
 ![首页](https://github.com/zhengyali/LBFbusiness/raw/master/Fbusiness/src/main/resources/images/a1.jpg)
